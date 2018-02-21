@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+.game{
+  height: 400px;
+  width:200px;
+  position: relative;
+  float: left;
+  background: #f2faff;
+}
+.gameInfo{
+  position: relative;
+  float: left;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.gameOver{
+  position: absolute;
+  z-index: 99;
+  font-size: 30px;
+  color: #f0f;
+  top: 200px;
+  left: 20px;
+}
+.next{
+  width: 80px;
+  height: 80px;
+}
+.info{
+  font-size: 12px;
+}
+.none,.current,.done{
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  position: absolute;
+}
+.game .none{
+  background: #f2faff;
+}
+.next .none{
+  background: white;
+}
+.current{
+  background: pink;
+  border: 1px solid #f00;
+}
+.done{
+  background: green;
+  border: 1px solid black;
+}
